@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #81725f;
+  /* background-color: red; */
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  /* max-width: 1500px; */
+  /* border: solid 1px red; */
+  margin-top: 0;
+}
+
+.mainBox {
+  width: 80%;
+  /* border: solid 1px white; */
+  margin: auto;
+}
+
+.topBoxOut {
+  width: 100%;
+  /* border: solid 1px green; */
+  background-image: url(../img/bg_top.jpg);
+  height: 550px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 3%;
+}
+
+.topBox {
+  height: 30%;
+  /* border: solid 1px blue; */
+  /* margin-top: 3%; */
+  margin: auto;
+}
+
+.titleTopOut {
+  width: 100%;
+  height: 300px;
+  /* border: solid 1px green; */
+  background-image: url(../img/bg_c01.jpg);
+  height: 550px;
+  /* background-size: 100% 100%; */
+  /* background-position: center; */
+  background-repeat: repeat;
+}
+
+.titleTop {
+  height: 300px;
+}
+
+.mainBodyOut {
+  width: 100%;
+  height: 600px;
+  /* border: solid 1px green; */
+  background-image: url(../img/bg_c02.jpg);
+  /* background-size: 100% 100%; */
+  /* background-position: center; */
+  background-repeat: repeat;
+}
+
+.mainBody {
+  height: 600px;
+  align-items: stretch;
+  position: relative;
+  /* margin: 0 auto; */
+  /* padding: 0 auto; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoBox {
+    width: 20%;
+    /* width: 200px; */
+    /* position: absolute; */
+    height: 550px;
+    /* border: dotted 1px red; */
+    display: inline-block;
+    /* display: inline; */
+    margin: auto;
+    background-color: #d1aa77;
+}
+
+.infoBox1 {
+  position: absolute;
+  top: -120px;
+  left: 7%;
+}
+
+.infoBox2 {
+  position: absolute;
+  top: 0px;
+  left: 40%;
+}
+
+.infoBox3 {
+  position: absolute;
+  top: 120px;
+  left: 73%;
+}
+
+.infoBoxTytol {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  /* border: dotted 1px black; */
+}
+
+.infoBoxPict {
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  /* border: dotted 1px black; */
+}
+
+.infoBoxText {
+  width: 80%;
+  height: 220px;
+  margin: 0 auto;
+  /* border: dotted 1px black; */
+}
+
+* {
+  border: solid 0 black;
+}
+
+/*
+
+selector{
+background-image: image1,image2,image3,image4;
+background-size: size1,size2,size3,size4;
+background-position:position1, position2 , position3, position4;
+}
+
+
+
+
+
+
+*/
